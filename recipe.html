@@ -1,0 +1,114 @@
+<!doctype html>
+<head>
+    <title>My Favorite Recipe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+ </head>
+
+    <body>
+        <header>
+            <p><a href="#">Banana and Strawberry Jam</a></p>
+        </header>
+        <section id="about">
+            <p>This healthy jam is quick and easy to make, a hit with the kids, <br />and you can cook it while you brew the coffee and mix the pancake dough!</p>
+            <table align="center">
+                <tr>
+                    <td><strong style="color: #bd0619">PREP</strong>: 1 minute</td>
+                    <td><strong style="color: #bd0619">COOK</strong>: Less than 10 minutes</td>
+                    <td><strong style="color: #bd0619">YELD</strong>: 3 or less</td>
+                </tr>
+            </table>
+        </section>
+        <section id="picture">
+            <div class="image-cropper">
+                <img class="centered" src="http://www.ikub.al/cache/images/e8/e8ef1400-ecdc-4dda-a231-552a8da6a5c9---0-.jpg" />
+            </div>
+            <button id="showNoImage">Toggle to show/hide all images</button>
+        </section>
+
+        <section id="ingredients">
+            <strong style="font-family:'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif; font-size: 1.5em;">INGREDIENTS*</strong>
+            <ul>
+                <li class="item">2 cups of sliced strawberries</li>
+                <li class="item">1 chopped banana</li>
+                <li class="item">1 spoon of sugar</li>
+                <li class="item">A dash of salt</li>
+            </ul>
+            <p style="font-size: 10px;">* Click the items to check/uncheck them</p>
+        </section>
+             
+        <section id="directions">
+            <strong style="font-family:'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif; font-size: 1.5em;">DIRECTIONS*</strong>
+            <p class="howTo">1. Put the pan on the stove top, on high heat;</p>
+            <p class="howTo">2. Put the strawberry, the chopped bananas, salt and sugar in it;</p>
+            <p class="howTo">3. Stir occasionally when starts boiling;</p>
+            <p class="howTo">4. After the liquid is partially reduced, turn off the fire;</p>
+            <p class="howTo">5. Wait to cool and serve on top of bread, pancake, crepe etc.</p>
+        </section>
+
+        <section id="reviews">
+            <strong style="font-family:'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif; font-size: 1.2em;">REVIEWS</strong><br />
+            <div class="feedback" id="best_friend">
+                <table>
+                    <tr><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><br /><em>Wow! Such a delicious and easy to make jam!</em></tr>
+                    <tr>
+                        <td><img class="photo" src="http://c51e0534b271998a1a94-58706dfbc342bfcb8f938b36c845fe8a.r14.cf1.rackcdn.com/uploads/first-person-commitment-to-education.jpg" /></td>
+                        <td><strong>John Sturro</strong><br /><small>Jan 15, 2016</small></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="feedback">
+                <table>
+                    <tr><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><br /><em>My kids loved it!</em><br /><br /><br /></tr>
+                    <tr>
+                        <td><img class="photo" src="https://pbs.twimg.com/profile_images/420734783300190208/YWTcdPy__400x400.png" /></td>
+                        <td><strong>Mary Cecil</strong><br /><small>Jan 21, 2016</small></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="feedback">
+                <table>
+                    <tr><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><br /><em>Scrumptious!</em><br /><br /><br /></tr>
+                    <tr>
+                        <td><img class="photo" src="http://stanlemmens.nl/wp/wp-content/uploads/2014/07/bill-gates-wealthiest-person.jpg" /></td>
+                        <td><strong>Peter Weir</strong><br /><small>Feb 27, 2016</small></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="feedback">
+                <table>
+                    <tr><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><br /><em>I made this recipe and brought it to our picnic.</em></tr>
+                    <tr>
+                        <td><img class="photo" src="http://pixel.nymag.com/imgs/daily/vulture/2016/02/23/23-ariana-grande.w529.h529.jpg" /></td>
+                        <td><strong>Stefi Pugh</strong><br /><small>Marc 2, 2016</small></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="feedback">
+                <table>
+                    <tr><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><br /><em>To this day, I'd only bought processed jam. Never more!</em><br /></tr>
+                    <tr>
+                        <td><img class="photo" src="https://ralfweiser.files.wordpress.com/2012/12/ralf-a.jpg" /></td>
+                        <td><strong>Tom Scalia</strong><br /><small>Marc 23, 2016</small></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="feedback">
+                <table>
+                    <tr><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><img src="http://www.oneworldkids.net/Star%20yellow%20copy.jpg" width="15" /><br /><em>It's so good, I can have it with with anything, even meat.</em></tr>
+                    <tr>
+                        <td><img class="photo" src="http://www.comicbookresources.com/imgsrv/imglib/250/0/1/image001-619bb.jpeg" /></td>
+                        <td><strong>Patricia Hill</strong><br /><small>Mar 29, 2016</small></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+         
+        <footer>
+            <h2 align="center">Bon App&eacute;tit!</h2>
+        </footer>
+
+    </body>
+</html>
